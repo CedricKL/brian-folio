@@ -1,0 +1,28 @@
+#experience {
+    justify-content: center;
+}
+
+.header-element {
+    display: block;
+    text-align: center;
+    color: rgb(77, 67, 67);
+}
+
+#section-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 50px;
+}
+
+#content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+
+.element {
+    width: 30%;
+    margin-left: 20px;
+}

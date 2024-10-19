@@ -1,0 +1,49 @@
+#about {
+    margin-left: 150px;
+    padding-bottom: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#about-header {
+    width: 100%;
+    display: flex;
+    margin-top: 320px;
+    justify-content: center;
+
+    #value {
+       font-size: 50px; 
+       font-weight: bold;
+       margin-bottom: 80px;
+    }
+}
+
+#photo {
+    border-radius: 25px;
+    margin-right: 50px;
+}
+
+#text-section {
+    width: 60%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(59, 58, 58);
+    font-weight: lighter;
+}
+
+#description {
+    width: 70%;
+    padding-top: 100px;
+}
+
+.card-container {
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.card-element {
+    width: 30%;
+    margin-right: 25px;
+}

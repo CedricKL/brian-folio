@@ -1,0 +1,46 @@
+#home-img {
+    border-radius: 60%;
+}
+
+#home {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.description-element {
+    display: block;
+}
+
+#position-section {
+    font-weight: lighter;
+}
+
+#home-description {
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#home {
+    margin-top: 100px;
+    vertical-align: middle;
+}
+
+#cv-button {
+    border-radius: 30px;
+    border: 1px solid black;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#contact-button {
+   border-radius: 30px;
+   color: white; 
+   background-color: rgb(18, 17, 17);
+   margin-bottom: 10px;
+}
+
+#linkedIn-image {
+    margin-left: 20px;
+}

@@ -1,0 +1,27 @@
+#nav-title {
+    font-size: 300%;
+    margin-block-start: 7px;
+    margin-left: 7px;
+}
+
+.nav-button{
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: baseline;
+    width: 100%;
+}
+
+#nav-buttons {
+    display: inline-block;
+    margin-block-start: 14px;
+    margin-right: 50px;
+}

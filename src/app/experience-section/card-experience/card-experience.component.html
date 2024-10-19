@@ -1,0 +1,20 @@
+<div id="card">
+    <div id="title">
+        <span>{{cardName}}</span>
+    </div>
+    <div id="content">
+        @for(competence of cardElements; track competence) {
+            <div class="element">
+                <div class="icon">
+                    <span>
+                        <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="check_circle"></mat-icon>
+                    </span>
+                </div>
+                <div>
+                    <span class="value competence-name">{{ competence.name}}</span>
+                    <span class="value competence-level">{{ competence.level}}</span>
+                </div>
+            </div>
+        }
+    </div>
+</div>
